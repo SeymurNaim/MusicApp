@@ -43,6 +43,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18158EB52C60E26D0029D229 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18158EB62C60E2760029D229 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18158EB72C60E27D0029D229 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18158EB82C60E2840029D229 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				18158EB92C60E39F0029D229 /* Home */,
+				18158EBA2C60E3B30029D229 /* Search */,
+				18158EBC2C60E3DC0029D229 /* Bookmarks */,
+				18158EBB2C60E3C80029D229 /* Youtube */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		18158EB92C60E39F0029D229 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1845041F2C528CA000F0B226 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18158EBA2C60E3B30029D229 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				184504212C528CAC00F0B226 /* SearchVC.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		18158EBB2C60E3C80029D229 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				184504252C528CC600F0B226 /* WatchVC.swift */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+		18158EBC2C60E3DC0029D229 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				184504232C528CBB00F0B226 /* BookmarksVC.swift */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
 		184503FD2C528B4000F0B226 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +129,10 @@
 				184504092C528B4000F0B226 /* AppDelegate.swift */,
 				1845040B2C528B4000F0B226 /* SceneDelegate.swift */,
 				1845041D2C528C6600F0B226 /* TabBarVC.swift */,
-				1845041F2C528CA000F0B226 /* HomeVC.swift */,
-				184504212C528CAC00F0B226 /* SearchVC.swift */,
-				184504232C528CBB00F0B226 /* BookmarksVC.swift */,
-				184504252C528CC600F0B226 /* WatchVC.swift */,
+				18158EB52C60E26D0029D229 /* Network */,
+				18158EB72C60E27D0029D229 /* Model */,
+				18158EB62C60E2760029D229 /* Helper */,
+				18158EB82C60E2840029D229 /* Scene */,
 				184504122C528B4100F0B226 /* Assets.xcassets */,
 				184504142C528B4100F0B226 /* LaunchScreen.storyboard */,
 				184504172C528B4100F0B226 /* Info.plist */,
